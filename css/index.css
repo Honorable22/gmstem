@@ -98,7 +98,7 @@ overflow: hidden;
   position: absolute;
   font-family: "helvetica neue", helvetica, verdana, "sans serif";
   position: absolute;
-  top: 20%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -106,7 +106,7 @@ overflow: hidden;
   white-space: nowrap;
   overflow: hidden;
   text-align: center;
-  font-size: 50%; 
+  font-size: 65%; 
 }
 
 /* Applies dark green to designated elements */
@@ -153,7 +153,7 @@ overflow: hidden;
 /* Border fill green for "Purchase" in t-shirt container */
 .purchase-border{ 
 background-color: #355F36;  
-padding: .5em; 
+padding: .8em; 
 width: 50%; 
 margin: 0 auto; 
 margin-top: 1em;
@@ -179,7 +179,7 @@ border-radius: .2em;
 /* Provides full width on mobile devices, centers elements, and takes out border radius */
 .stem-left1, .stem-left2, .stem-left3{
   width: 100%; 
-  height: 500px; 
+  height: 600px; 
   border-radius: 0px 0px 0px 0px;  
   float: none; 
   margin-top: .5em; 
@@ -202,7 +202,7 @@ border-radius: .2em;
 /* Provides full width on mobile devices, centers elements, and takes out border radius */
 .stem-right1, .stem-right2, .stem-right3 {
   width: 100%; 
-  height: 500px; 
+  height: 600px; 
   border-radius: 0px 0px 0px 0px;
   float: none;
   margin-top: .5em; 
@@ -276,6 +276,12 @@ background: linear-gradient(to bottom, #305278 0%, #3d6087 40%, #7198c4 100%)  *
 
 /* This style is for tablets with an min width of 800px */
 @media only screen and (min-width: 768px) {
+
+
+#txt-overlay{
+  font-size: 100%; 
+  top: 55%;
+}
 
 .mobilelinks {
   display: block;
@@ -426,7 +432,13 @@ background: linear-gradient(to bottom, #305278 0%, #3d6087 40%, #7198c4 100%)  *
   white-space: nowrap;
   overflow: hidden;
   text-align: center;
-  font-size: 135%;
+  font-size: 115%;
+}
+
+/* Border fill green for "Purchase" in t-shirt container */
+.purchase-border{ 
+padding: .5em; 
+width: 50%; 
 }
 
 }

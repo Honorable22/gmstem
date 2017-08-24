@@ -2,7 +2,7 @@
 
 .primary-image-container{
   width: 100%; 
-  height: 750px; 
+  height: 600px; 
   background: -webkit-linear-gradient(top, #DC7633, #EDBB99);
   background: linear-gradient(to bottom, #DC7633, #EDBB99);
    
@@ -114,7 +114,16 @@
 }
 
  /* This style is for desktops and tablets with an min width of 800px */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
+
+.primary-image-container{
+  height: 700px; 
+   
+}
+
+.text-container{
+  top: 20%; 
+}
 
 #video{ 
 padding-bottom: 45.25%; 
@@ -133,4 +142,20 @@ padding-bottom: 45.25%;
 }
 
 } /* Closing bracket for desktop media screen */
+
+
+@media only screen and (min-width: 1024px) {
+
+.primary-image-container{
+  height: 750px; 
+   
+}
+
+.text-container{
+  top: 30%; 
+}
+
+
+
+}
 

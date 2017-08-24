@@ -3,7 +3,7 @@
 .primary-image-container{
   position: relative;
   width: 100%; 
-  height: 750px; 
+  height: 600px; 
   background: -webkit-linear-gradient(top, #000, #ABB2B9);
   background: linear-gradient(to bottom, #000, #ABB2B9);
    
@@ -157,7 +157,13 @@ h3 {
 }
 
 /* This style is for desktops with an min width of 550px */
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 768px) {
+
+
+.primary-image-container{
+  height: 700px;    
+}
+
 /* Size of the text for overlay on primary image */
 #headtxt{
   font-size: 45px; 
@@ -178,7 +184,11 @@ h3 {
 
 } 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1024px) {
+
+.primary-image-container{
+  height: 750px;    
+}
 
 /* Size of the text for overlay on primary image */
 #headtxt{

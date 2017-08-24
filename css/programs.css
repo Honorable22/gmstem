@@ -4,15 +4,20 @@
 
 .science1{
   width: 100%; 
-  height: 750px; 
+  height: 600px; 
   background: -webkit-linear-gradient(top, #4f1b74, #af4fc1);
   background: linear-gradient(to bottom, #4f1b74, #af4fc1);
    
 }
 
+
 .text-container{
   position: relative;
   top: 30%; 
+}
+
+.text-container1{
+  top: 25%; 
 }
 
 .headline{
@@ -172,13 +177,20 @@
 /* This style is for desktops and tablets with an min width of 800px */
 @media only screen and (min-width: 768px) {
 
-
+.science1{
+  height: 700px; 
+}
 
 } /* This closing bracket is for desktop media screen */
 
 
 
 @media only screen and (min-width: 1024px){
+
+
+.science1{
+  height: 750px; 
+}
  
 .subline-text{
   width: 60%; 
@@ -189,6 +201,10 @@
 .headline{
   font-size: 2.5em; 
 
+}
+
+.text-container{
+  top: 30%; 
 }
 
 
